@@ -8,6 +8,9 @@ The provided zip file has my own project folder for the Data Recognition phase. 
 
 Also the executables here are for data recognition(`qf_ssi_ai_app_recog.bin`) and data collection (`qf_ssi_ai_app_col.bin`). You can use this to try out my test case.
 
+The `PHSensorProcessor.zip` contains the particle photon code where the photon powers-up, waits for 2 mins to system be ready, outputs processed PH value from the 
+garden PH meter, then reads inference messages over UART from the Quickfeather and then updates finally which tree is being recommended via Particle Variables which can be seen via the Particle Cloud Console or the Particle IoT App.
+
 # Useful Links and Resources
 
 https://www.hackster.io/gatoninja236/getting-started-with-the-quickfeather-dev-kit-and-sensiml-9881a3  
