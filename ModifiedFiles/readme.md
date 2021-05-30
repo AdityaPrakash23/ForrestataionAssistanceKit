@@ -8,3 +8,5 @@ Here is a list of the all the modified files with their intended location in the
 
 These files can be replaced within your own project file as it is if you want to work on Data Recognition Mode. For working on Data Capture Mode, make change in `app_config.h` file.
 You will have to switch the 0 and 1 in lines 24 and 25.
+
+The only file to be added is the `Adafruit_ADS1015.cpp` as it is in the `qf_ssi_ai_app/inc` folder.
